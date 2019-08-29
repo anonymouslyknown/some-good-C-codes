@@ -19,7 +19,7 @@ int main()
 	{
 		x1= (-b + sqrt(D))/(2*a);
 		x2= (-b - sqrt(D))/(2*a);
-		printf(" the roots of equation  are \%.2f , %.2f",x1,x2);
+		printf(" the roots of equation  are %.2f , %.2f",x1,x2);
 	}
 	else
 	{

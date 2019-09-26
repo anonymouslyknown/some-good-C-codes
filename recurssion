@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+	int fun(int);
+	int n,a;
+	printf("enter any number");
+	scanf("%d",&n);
+	printf("fibonacci series\n");
+	for(a=0;a<n;a++)
+	{
+		printf("%d\t",fun(a));
+	}
+}
+
+int fun(int n)
+{
+	if (n<=1)
+	{
+		return 1;
+	}
+	else
+	{
+		return fun(n-1)+fun(n-2);	
+	}
+}
